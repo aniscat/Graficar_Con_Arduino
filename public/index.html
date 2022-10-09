@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gràfica de curvas planas</title>
+</head>
+<body>
+    <br><br>
+    <h1 class="aligncenter">GRÀFICA DE CURVAS PLANAS</h1>
+   
+<section>
+
+    <div class="funciones">
+        <form  class="aligncenter" name="curvas">
+            <fieldset>
+                <legend class="aligncenter">Selecciona la gràfica que deseas graficar</legend>
+               <br>
+                <div >
+                    <div class="curvas1">
+                        <input type="checkbox" value="Cicloide" name="Curva" onclick="obtenerDatos()"><label>Cicloide</label><br>
+                        <input type="checkbox" value="Prolata" name="Curva" onclick="obtenerDatos()"><label>Cicloide Prolata</label><br>
+                        <input type="checkbox" value="Lemniscata" name="Curva" onclick="obtenerDatos()"><label for="Lemniscata">Lemniscata</label> <br>
+                        <input type="checkbox" value="Recta" name="Curva" onclick="obtenerDatos()"><label for="Recta">Recta</label><br>
+                        <input type="checkbox" value="Circulo" name="Curva" onclick="obtenerDatos()"><label for="Cìrculo">Cìrculo</label><br>
+                        <input type="checkbox" value="Elipse" name="Curva" onclick="obtenerDatos()"><label for="Elipse">Elipse</label><br>
+                        <input type="checkbox" value="Parabola" name="Curva" onclick="obtenerDatos()"> Paràbola<br>
+                        <input type="checkbox" value="Hiperbola" name="Curva" onclick="obtenerDatos()"> Hipèrbola
+
+                    </div>
+                    <div class="curvas2">
+                        <input type="checkbox" value="Cardioide" name="Curva" onclick="obtenerDatos()"> Cardioide<br>
+                        <input type="checkbox" value="Rosa" name="Curva" onclick="obtenerDatos()"> Rosa<br>
+                        <input type="checkbox" value="Caracol" name="Curva" onclick="obtenerDatos()"> Caracol<br>
+                        <input type="checkbox" value="Cisoide" name="Curva" onclick="obtenerDatos()"> Cisoide<br>
+                        <input type="checkbox" value="Agnesi" name="Curva" onclick="obtenerDatos()"> Bruja de Agnesì<br>
+                        <input type="checkbox" value="Astroide" name="Curva" onclick="obtenerDatos()"> Astroide<br>
+                        <input type="checkbox" value="Reloj" name="Curva" onclick="obtenerDatos()"> Reloj de arena<br>
+                        <input type="checkbox" value="Gota" name="Curva" onclick="obtenerDatos()"> Gota
+                            <br>
+                    </div>
+                </div>
+                
+                <div>
+                    <br>
+                    <button class="aligncenter" id="button">Borrar</button>
+                    <br>
+                </div>
+                
+            </fieldset>
+        </form>
+    </div>
+    <div class="grafica">
+        <canvas class="aligncenter" id="canvas"></canvas>
+    </div>
+</section>
+  
+
+    <!-- se encuentra la biblioteca de socket.io -->
+    <script src="/socket.io/socket.io.js" ></script>
+    <script src="scripts.js" ></script>
+</body>
+</html>

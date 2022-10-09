@@ -1,0 +1,17 @@
+{
+  "name": "conexion",
+  "version": "1.0.0",
+  "description": "Hacer dibujar una funciòn con un potenciometro",
+  "main": "conexion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diana Pacheco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "johnny-five": "^2.1.0",
+    "serialport": "^10.4.0",
+    "socket.io": "^4.5.2"
+  }
+}

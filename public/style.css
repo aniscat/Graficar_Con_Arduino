@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    border:0px;
+    margin:0px;
+    padding:0px;
+}
+html{
+    background-color: #fdf1dc;
+}
+body{
+    width: auto;
+    /* max-width: 100vw; */
+    max-height: 100vh;
+    /* min-height:100vh;
+    min-width:100vw; */
+   /* display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+	/* flex-wrap:wrap; */
+    color:black;
+}
+.aligncenter {
+    clear: both;
+    /* text-align: center; */
+    display: block;
+    margin: 0 auto !important;
+    padding-bottom: 10px;
+}
+h1, h2, h3{
+    margin-top: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: bold;
+    text-align: center;
+	width:100%;
+}
+.funciones_predef {
+	width:30%;
+	/* height:fit-content; */
+	background: #f7ad54;
+	margin: 15px 10px;
+	border : 7px solid black;
+    border-radius: 5px;
+}
+div.grafica{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height:10% !important;
+}
+#canvas {
+    margin: 15px 5px;
+    background-color: aliceblue;
+    border : 5px solid gray;
+    border-radius: 5px;
+    padding: 0;
+}
+form {
+    border: 5px;
+    padding: 20px;
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+fieldset{
+    border-width: 2px;
+    border-style: groove;
+    border-color: rgb(192, 192, 192)
+}
+button{
+    border-radius: 10%;
+    padding: 2px;
+    width: 100px;
+    cursor: pointer;
+}
+div.funciones{
+    display: inline;
+    width: 29%;
+    float:left;
+    margin-left: 20px;
+}
+div.grafica{
+    width: 57%;
+    float:right;
+}
+div.curvas1{
+    float: left;
+    width: 50%;
+}
+div.curvas2{
+    float: right;
+    width: 50%;
+}
+div.funciones{
+    background-color: rgb(211, 146, 195);
+}
